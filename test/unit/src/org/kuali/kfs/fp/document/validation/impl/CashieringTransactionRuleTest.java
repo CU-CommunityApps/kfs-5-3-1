@@ -502,15 +502,5 @@ public class CashieringTransactionRuleTest extends KualiTestBase {
         return new Date(cal.getTimeInMillis());
     }
 
-    /**
-     * Force COUNT_PER_ROLL_BY_DENOMINATION parameter to be set up exactly as the tests needed.
-     * @see junit.framework.TestCase#setUp()
-     */
-    @Override
-    protected void setUp() throws Exception {
-        TestUtils.setSystemParameter(CoinDetail.class, FpParameterConstants.COUNT_PER_ROLL_BY_DENOMINATION, "100c=25;50c=20;25c=40;10c=50;5c=40;1c=50");
-        super.setUp();
-    }
-
 }
 
