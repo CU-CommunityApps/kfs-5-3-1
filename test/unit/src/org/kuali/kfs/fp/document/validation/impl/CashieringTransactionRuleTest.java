@@ -34,10 +34,8 @@ import org.kuali.kfs.fp.document.CashManagementDocument;
 import org.kuali.kfs.fp.document.service.CashManagementService;
 import org.kuali.kfs.fp.service.CashDrawerService;
 import org.kuali.kfs.sys.ConfigureContext;
-import org.kuali.kfs.sys.KFSParameterKeyConstants.FpParameterConstants;
 import org.kuali.kfs.sys.context.KualiTestBase;
 import org.kuali.kfs.sys.context.SpringContext;
-import org.kuali.kfs.sys.context.TestUtils;
 import org.kuali.kfs.sys.fixture.UserNameFixture;
 import org.kuali.rice.core.api.util.type.KualiDecimal;
 
